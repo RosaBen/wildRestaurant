@@ -1,13 +1,13 @@
-import React from 'react';
+
 import MenuItem from './MenuItem';
 
-function MenuList({ foodItems }) {
-  console.log(foodItems);
-  return (
+export default function MenuList({listFood}) {
+    console.log({listFood})
+return (
     <>
-      {/*render a MenuItem component to each element of the props array*/}
+    {listFood.map((item, index) => (
+        <MenuItem key={index} item={item} />
+      ))}
     </>
   );
 }
-
-export default MenuList;
