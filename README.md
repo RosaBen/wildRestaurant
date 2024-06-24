@@ -21,3 +21,4 @@ step 11 - remplacer toutes les informations sur MenuItem par les props+titres da
 step 12 - ajouter un bouton pour changer la couleur du coeur en fonction de sa disponibilité
 
 
+# resto
